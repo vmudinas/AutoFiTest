@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-api",
+  "version": "0.0.0",
+  "description": "NodejsApi",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "express": "^4.17.1",
+    "fast-csv": "^3.4.0",
+    "mocha": "^6.2.0",
+    "mongodb": "^3.3.2",
+    "multer": "^1.4.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^5.2.3",
+    "mongodb-memory-server-global": "^5.2.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "a7a85455-ced1-4d8d-ab08-1b05cd063359",
+		"name": "AutoFiPostmanTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post CSV to api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "text/plain",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": null,
+							"type": "file"
+						},
+						{
+							"key": "providerName",
+							"value": "superMe",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/upload",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"upload"
+					]
+				},
+				"description": "Server api must be up and running"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
